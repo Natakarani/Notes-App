@@ -5,7 +5,7 @@ function Header() {
   return (
     <Navbar expand="lg" className="p-3 shadow" style={{background:'brown'}}>
       <Container>
-        <Navbar.Brand href="#home" className='fs-3 text-white fw-bold'>React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home" className='fs-3 text-white fw-bold'>NOTES</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

@@ -1,0 +1,12 @@
+.homeBanner{
+    color: white;
+    font-weight: 500;
+    background:linear-gradient(brown,rgb(241, 169, 169));
+}
+footer h1:hover,footer h3:hover, footer p:hover, footer i:hover{
+    cursor: pointer;
+}
+.homeBanner button:hover{
+    color: rgb(232, 100, 70) !important;
+    font-weight: 500;
+}

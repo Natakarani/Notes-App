@@ -21,13 +21,17 @@ function ViewNotes() {
                 </div>
                 )
                     :
-                    (notes.map((item, index) => (
+                    (
+                        notes.length == 0 ? (<h1 className='display-2 text-center m-auto'>DATA EMPTY</h1>) : (
+                            notes.map((item, index) => (
                         <div className='text-white bg-black p-3 rounded-3'>
                             <h1>{item.title}</h1>
                             <p>{item.desc}</p>
 
                         </div>
-                    )))
+                    ))
+                        )
+                    ) 
             }
        </div>
     );
